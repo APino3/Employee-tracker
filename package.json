@@ -1,0 +1,29 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -I index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APino3/Employee-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APino3/Employee-tracker/issues"
+  },
+  "homepage": "https://github.com/APino3/Employee-tracker#readme",
+  "dependencies": {
+    "babel-node": "^0.0.1-security",
+    "console.table": "^0.10.0",
+    "inquirer": "^9.1.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19"
+  }
+}
